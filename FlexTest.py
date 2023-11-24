@@ -26,7 +26,7 @@ The script relies on the flex.py module, which should be available in the same e
 
 
 from typing import ByteString
-from flex import TFLEX_packet, calc_crc16
+from  Flex import TFLEX_packet, calc_crc16
 
 def encode_nmea_data(nmea_message: str) -> ByteString:
     """
